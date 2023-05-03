@@ -1,0 +1,29 @@
+{
+  "name": "extract.data.sample",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "body-parser": "1.20.1",
+    "bootstrap": "^3.4.1",
+    "cookie-parser": "1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "4.18.2",
+    "express-session": "1.17.3",
+    "forge-apis": "0.9.4",
+    "jquery": "^3.6.1",
+    "jstree": "3.3.12",
+    "moment": "2.29.4",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node start.js",
+    "dev": "node start.js",
+    "nodemon": "nodemon start.js --ignore www/"
+  },
+  "author": "Michale Beale (APS Partner Development)",
+  "license": "MIT"
+}
